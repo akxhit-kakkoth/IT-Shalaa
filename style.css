@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* -----------------header start----------- */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    align-items: center;
+    background-color: #1f293f;
+    height: 80px;
+    padding: 0px 140px;
+}
+
+.header p{
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.header-link{
+    display: flex;
+    gap: 21px;
+}
+
+.header a{
+    text-decoration: none;
+    color: #f9faf8;
+
+}
+/* ------------header end---------- */
+
+
+/* -----hero----------- */
+.hero-section{
+    height: 500px;
+    background-color: #1f2937;
+    display: flex;
+    padding: 0px 140px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.hero-left{
+height: 300px;
+width: 600px;
+background-color: #1f2937;
+}
+.hero-left h3{
+    color: #f9faf8;
+    font-size: 48px;
+}
+.hero-left p{
+    color: #f9faf8;
+}
+.hero-left button{
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.hero-right{
+    height: 300px;
+    width: 600px;
+    background-color: rgb(109, 109, 109);
+}
+.hero-right p{
+    color: white;
+    align-items: center;
+}
+/* ----hero end------ */
+/* ----info ---- */
+.container{
+    border: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 140px;
+    height: 320px;
+}
+.item{
+    height: 125px;
+    width: 150px;
+    margin: 20px;
+    border-radius: 12px;
+    border: 2px solid #3882f6 ;
+    border-width: 3px;
+}
+/* ----info end-------- */
+
+/* -----quote---- */
+.qoute{
+    height: 200px;
+    display: flex;
+    padding: 0px 140px;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+}
+
+.qoute type {
+    
+
+}
+/* ends */
+.sec-last{
+    padding: 0px 140px;
+    justify-content: space-between;
+    /* align-items: center; */
+    display: flex;
+    background-color: #dde0e4;
+    display: flex;
+    height: 200px;
+}
+.action{
+    height: 100px;
+    width: 100vh;
+    padding: 0px 140px;
+    background-color: #3882f6;
+    align-items: center;
+    margin: 8vh;
+    display: flex;
+}
+.test-col h3{
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+}
+.sign{
+    background-color: yellow;
+}
+/* button */
